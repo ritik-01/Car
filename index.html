@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.ico">
+
+    <title>HOME</title>
+	
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+	<link href="css/cubeportfolio.min.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	
+	<script type="text/javascript" src="js/modernizr.custom.69142.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      $(".suspend").mouseover(function() {
+        $(this).stop();
+        $(this).animate({width: 160}, 400);
+      })
+
+      $(".suspend").mouseout(function() {
+        $(this).stop();
+        $(this).animate({width: 40}, 400);
+      });
+
+    });
+  </script>
+
+
+
+    <!-- Navigation -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>  -->
+        </div>
+        <div class="collapse navbar-collapse">        
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden-sm">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="hidden-sm">
+              <a href="car_team.html">Car Team</a>
+            </li>
+            <li class="hidden-sm">
+              <a href="chicago_view.html">Chicago View</a>
+            </li>
+            <li class="hidden-sm">
+              <a href="services.html">Services</a>
+            </li>
+            <li class="hidden-sm">
+              <a href="about-us.html">About us</a>
+            </li>
+            <li class="hidden-sm">
+              <a href="FAQ's.html">FAQ's</a>
+            </li>
+
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">联系<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html">关于我们</a></li>
+                <li><a href="contact-us.html">联系我们</a></li>
+                <li><a href="pricing-table.html">价格表</a></li>
+              </ul>
+            </li>-->
+
+
+
+            <!--<li class="hidden-sm">
+              <a href="ui-elements.html">UI Elements</a>
+            </li>-->
+            <!-- Navbar Search 
+            <li class="hidden-xs" id="navbar-search">
+              <a href="#">
+                <i class="fa fa-search"></i>
+              </a>
+              <div class="hidden" id="navbar-search-box">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul> -->
+          <!-- Mobile Search 
+          <form class="navbar-form navbar-right visible-xs" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-danger" type="button">Search!</button>
+              </span>
+            </div>
+          </form>          -->
+        </div><!--/.nav-collapse --> 
+      </div>
+    </div> <!-- / .navigation -->
+	<span id="header_shadow" style="width: 100%; top: 30px;"></span>   
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Home Slider -->
+      <div class="home-slider">
+        <!-- Carousel -->
+        <div id="home-slider" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#home-slider" data-slide-to="1"></li>
+            <li data-target="#home-slider" data-slide-to="2"></li>
+            <li data-target="#home-slider" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <!-- Slide #1 -->
+            <div class="item active" id="item-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-7">
+                    <h1 class="first-child animated slideInDown delay-3"><span>Fun in Chicago</span></h1>
+					<!--<h3 class="animated fadeInUpBig delay-4">快速,准时，安心<span class="text-darkblue">
+                      <strong>无任何其他费用</strong>-->
+					<br />
+					<h4 class="animated bounceInDown delay-5"><span>Beautiful </span></h4>
+					<h4 class="animated bounceInDown delay-5"><span>Convenient</span></h4>
+					<h4 class="animated bounceInDown delay-5"><span>Make Travel Easier</span></h4>
+                  </div>                 
+                </div> <!-- / .row -->
+              </div> <!-- / .container -->
+            </div> <!-- / .item -->
+
+            <!-- Slide #2 -->
+            <div class="item" id="item-2">
+              <div class="container">
+                <div class="row">				  
+                  <div class="col-sm-12">
+				    <h1 class="first-child animated fadeInUpBig delay-2"><strong>Airport Transfer</strong></h1>
+                    <ul class="string">
+					  <li class="animated fadeInUpBig delay-4"><span><strong>Simple and fast<a href="index.html"></a></strong></span></li>
+                    </ul>
+					<h2 class="animated bounceInDown delay-4"><span class="bg-darkblue">Peace of mind, peace of mind, Canadian service</span>
+                      <span class="bg-yellow">No additional fees</span></h2>
+                  </div> 
+                </div> <!-- / .row -->
+              </div> <!-- / .container -->          
+            </div> <!-- / .item -->
+            <!-- Slide #3 -->
+            <div class="item" id="item-3">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">                    
+					<h1 class="first-child animated fadeInUpBig delay-3"><strong><span class="bg-yellow text-white">Chartered car</span></strong></h1>
+                    <ul class="animated flipInX delay-5">
+                     <li><i class="fa fa-star"></i><span  class="text-white">  Tailored</span></li>
+                      <li><i class="fa fa-star"></i><span class="text-white">  Secure delivery</span></li>
+                      <li><i class="fa fa-star"></i><span class="text-white">  Make travel more comfortable</span></li>
+
+                    </ul>
+					  <!--<a href="#" class="btn btn-lg btn-red animated bounceInDown delay-3">Buy Now</a>-->
+                  </div>                 
+                </div> <!-- / .row -->
+              </div> <!-- / .container -->            
+            </div> <!-- / .item -->
+
+            <!-- Slide #2 -->
+            <div class="item" id="item-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h1 class="first-child animated fadeInUpBig delay-2"><strong class="text-white">International student transfer</strong></h1>
+
+                    <h2 class="animated bounceInDown delay-4"><span class="bg-darkblue">Stop worrying about strange North America</span></h2>
+                     <h2 class="animated fadeInUpBig delay-4"> <span class="bg-yellow">Student specials</span></h2>
+                  </div>
+                </div> <!-- / .row -->
+              </div> <!-- / .container -->
+            </div> <!-- / .item -->
+
+          </div> <!-- / .carousel -->
+          <!-- Controls -->
+          <a class="carousel-arrow carousel-arrow-prev hidden-xs hidden-sm" href="#home-slider" data-slide="prev">
+            <i class="fa fa-angle-left fa-2x"></i>
+          </a>
+          <a class="carousel-arrow carousel-arrow-next hidden-xs hidden-sm" href="#home-slider" data-slide="next">
+            <i class="fa fa-angle-right fa-2x"></i>
+          </a>
+        </div>
+      </div> <!-- / .home-slider -->	  
+	  
+	  <!-- Divider Shadow -->
+	  <div class="divider-shadow">
+		<img src="img/divider-shadow1.png" alt="devider" class="responsive-img"/>
+	  </div><!-- /.Divider Shadow -->
+	  
+	  <!-- Browser Showcase -->
+	  <div class="browser-showcase">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="first-child text-center" >Welcome to<a href="index.html"><strong><span class="text-darkblue">  Singh Tour & Travels</span></strong></a></h1>
+              <h4 class="text-darkblue text-center"> Do the most professional shuttle service  </h4>
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+	  </div> <!-- / .Browser Showcase -->
+
+      <!-- Main Services -->
+      <div class="main-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-lightbulb-o"></i>
+                  <div class="service-desc">
+                    <h4>Price transparency</h4>
+                    <p>Open prices, transparent, uniform pricing, without any compulsory tipping, maximum guarantee of customer interests and right to know</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-book"></i>
+                  <div class="service-desc">
+                    <h4>Record recoverable</h4>
+                    <p>We will record all the pick-up services, and we will strictly deal with any impolite behavior of the driver to truly make the customer supreme..</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-thumbs-o-up"></i>
+                  <div class="service-desc">
+                    <h4>Praise constantly</h4>
+                    <p>Since the formation of the team, we have achieved a record of zero customer complaints, and the quality is trustworthy.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-leaf"></i>
+                  <div class="service-desc">
+                    <h4>Green travel</h4>
+                    <p>All shuttle vehicles are strictly audited and regularly maintained to ensure customer safety and travel comfort..</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-cogs"></i>
+                  <div class="service-desc">
+                    <h4>Efficient</h4>
+                    <p>Arrive at the pick-up place on time and on time to provide customers with the most efficient service.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-camera"></i>
+                  <div class="service-desc">
+                    <h4>Free photo service</h4>
+                    <p>At any time along the way, you can ask the driver to take pictures at a slower speed, or let the driver provide free photo services.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .main-features -->
+	  
+	  <!-- Tag Banner -->
+      <div class="responsive-tag-banner">
+        <div class="container">
+            <div class="row">
+			  <div class="col-md-6 col-sm-6 col-xs-12">
+			    <div class="text-center">
+                  <h3 class="animated bounceInRight delay-4"> <img class="img-responsive" src="img/people-2.png" alt="..."></h3>
+				</div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <h2 class="animated bounceInLeft delay-4" >Let <a href="index.html"><strong><span class="text-red"><em>SINGH's</em></span></strong></a> to take you around Chicago!</h2>
+                <p class="lead text-muted">
+                    <h4 class="animated bounceInRight delay-4">Stop worrying about travel, worry about the weather, worry about the route and let Us to solve all your troubles in Chicago.</h4>
+                </p>
+				<ul class="lead text-muted">
+
+				  
+				  <li><h3 class="animated bounceInRight delay-5"><span class="text-red"><i class="fa fa-hand-o-right"></i> US Phone</span>：3124830858</h3></li>
+                  <li><h3 class="animated bounceInRight delay-5"><span class="text-red"><i class="fa fa-hand-o-right"></i> Canada Phone</span>3124830858</h3></li>
+				  <li><h3 class="animated bounceInRight delay-5"><span class="text-red"><i class="fa fa-hand-o-right"></i> Public Account</span>Under development......</h3></li>
+				  <li ><h3 class="animated bounceInRight delay-5"><span class="text-red"><i class="fa fa-hand-o-right" > QQ:</i></span>412357265 </h3></li>
+
+				</ul>
+				<br />
+           <!-- <h4 class="animated bounceInRight delay-5"> <a class="btn btn-lg btn-red" href="http://wpa.qq.com/msgrd?v=3&uin=1916218720&site=qq&menu=yes"> Contact</a> &nbsp;&nbsp;&nbsp;</h4> -->
+
+              </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Tag Banner -->      
+
+      <!-- chicago feature1 -->
+      <div class="services-feature1">
+        <div class="container">
+          <div class="row">			
+			<div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-desktop"></i></a>              
+                <h3><strong  class="text-white">Chicago</strong></h3>
+				<div>
+                  <p>
+                    Chicago（Chicago）is located in the Midwestern Illinois, Lake Michigan, one of the five largest North America lakes in the east , one of the famous international financial centers and the third most populous city in the United States(after New York and Los Angeles)
+                  </p>
+                </div>
+              </div>
+            </div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-cogs"></i></a>
+                <h3><strong  class="text-white">The first settlers(1779)</strong></h3>
+                <div>
+                  <p>
+                    In the 18th century, the Chicago area was the territory of the Potawatomi Indian tribe. In 1779, a black businessman from Haiti, Jean Baptiste Point DuSable, settled in Chicago. He married the Bertha Wattoms and opened the first warehouse in the area on Chicago's North Shore。
+                  </p>
+                </div>
+              </div>
+            </div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-camera"></i></a>
+                <h3><strong  class="text-white">City establishment (1837)</strong></h3>
+                <div>
+                  <p>
+                    In 1816, Berta Vatomi and other nearby Indian tribes signed a St. Louis agreement with the US government, giving up the land. The town of Chicago was founded on August 12, 1833, with 350 residents. With the increase in settling population, Chicago's population was only 4,179 in 1837
+                  </p>
+                </div>
+              </div>
+            </div>			
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-pagelines"></i></a>
+                <h3><strong  class="text-white">Chicago Fire (1871)</strong></h3>
+                <div>
+                  <p>
+                    A fire broke out in Chicago from October 8 to 10, 1871. Almost all of the buildings in the urban area (including commercial areas) on about 6.5 square kilometers of land were burned out. About 300 people died, 90,000 were homeless, and property The losses amounted to $ 200 million. This is the famous Chicago Fire in American history.。
+                  </p>
+                </div>
+              </div>
+            </div>		
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-comments-o"></i></a>
+                <h3><strong  class="text-white">Strong development (19th century)</strong></h3>
+                <div>
+                  <p>
+                    Chicago became a major city and agricultural distribution center in the Midwestern United States in the 19th century. In 1848, Chicago began to become an important transportation hub connecting the east and west of the United States. Convenient water and land transportation has greatly stimulated the development of industry and commerce. The prosperity of the city has attracted many outsiders to settle here. Between 1870 and 1900, Chicago's population soared from 299,000 to 1.7 million. The local manufacturing and retail industries have become the dominant force in the Midwest economy and have greatly affected the US economy..
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="service-feature1">
+				<a href="#"><i class="fa fa-magic"></i></a>
+                <h3><strong  class="text-white">Prosperity of the city (1950s)</strong></h3>
+                <div>
+                  <p>
+                    Since the 1950s, middle- and upper-level residents gradually began to migrate to urban suburbs, resulting in the decline and destitution of many parts of the city center. During this period, Chicago hosted the 1968 Democratic National Convention and completed the iconic Hills Tower, McCormick Place and O'Hare Airport. The current mayor, Richard M. Daley, has a policy focused on improving the environmental quality of Chicago, implementing projects to revive declining neighborhoods, improve urban infrastructure, and urban landscapes along lakes and rivers. Chicago had bid for the 2016 Olympics, but was eliminated in the first round of voting on October 2, 2009。
+                  </p>
+                </div>
+              </div>
+            </div>           
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Service Feature1 -->
+	  
+	  <!-- Services feature2 -->
+	  <div class="service-feature2">
+		<div class="container">
+	      <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-8">
+              <h1>Chicago Past and Present</h1>
+              <h4><em><strong>American International Metropolis</strong></em></h4>
+            </div>
+			<div class="col-xs-12 col-sm-4 col-md-4">
+              <a class="btn btn-lg btn-darkblue pull-right" href="#">travel togeather!</a>
+			</div>
+		  </div> <!-- / .row -->
+        </div> <!-- / .container -->
+	  </div><!-- / .Services feature2 -->	  
+	  
+	  <!-- Fresh Works1 -->	  
+	  <div class="fresh-works1">
+	    <div class="header text-center">
+	      <h1><span class="text-red">Zhicheng</span> <strong><span class="text-darkblue">Style</span></strong></h1>
+		  <h4>Chicago is the third largest city in the United States, and it is also known as the "Wind City".</h4>
+		</div>
+		<div class="container_full">		  
+		  <br /><br />		  
+          <div id="grid-container" class="cbp-l-grid-fullScreen">
+            <ul>
+              <li class="cbp-item identity logo">
+                <a href="img/chicago/cloudy_gate.jpg" class="cbp-caption cbp-lightbox" data-title="云门">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/cloudy_gate.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">Cloud Gate</div>
+                        <div class="cbp-l-caption-desc">Chinese call it soy beans</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item web-design">
+                <a href="img/chicago/chicago.jpg" class="cbp-caption cbp-lightbox" data-title="芝加哥">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/chicago.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+						<div class="cbp-l-caption-title">Chicago</div>
+                        <div class="cbp-l-caption-desc">Chicago panorama</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item motion identity">
+                <a href="img/chicago/uiuc.jpg" class="cbp-caption cbp-lightbox" data-title="UIUC">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/uiuc.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">UIUC</div>
+                        <div class="cbp-l-caption-desc">North American School</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item identity graphic">
+                <a href="img/chicago/will_tower.jpg" class="cbp-caption cbp-lightbox" data-title="希尔斯大厦">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/will_tower.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">Sears Tower</div>
+                        <div class="cbp-l-caption-desc">10 tallest buildings in the world</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item motion logo">
+                <a href="img/chicago/nature_meseum.jpg" class="cbp-caption cbp-lightbox" data-title="自然博物馆">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/nature_meseum.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">Museum of Nature</div>
+                        <div class="cbp-l-caption-desc">Located in Museum District</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item web-design">
+                <a href="img/chicago/navy_pier.jpg" class="cbp-caption cbp-lightbox" data-title="海军码头">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/navy_pier.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">Navy Pier</div>
+                        <div class="cbp-l-caption-desc">Famous US Navy Pier</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item identity motion">
+                <a href="img/chicago/chicago_university.jpg" class="cbp-caption cbp-lightbox" data-title="芝加哥大学">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/chicago_university.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">University of Chicago</div>
+                        <div class="cbp-l-caption-desc">World famous school</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="cbp-item web-design graphic">
+                <a href="img/chicago/history_museum.jpg" class="cbp-caption cbp-lightbox" data-title="艺术博物馆">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="img/chicago/history_museum.jpg" alt="" />
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignLeft">
+                      <div class="cbp-l-caption-body">
+                        <div class="cbp-l-caption-title">Museum of Art</div>
+                        <div class="cbp-l-caption-desc">Chicago famous museums</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>		
+			</ul>
+          </div>
+      	  <div class="cbp-l-loadMore-text">
+			<div data-href="#" class="cbp-l-loadMore-text-link"></div>
+      	  </div>
+		</div><!-- / .container full -->
+	  </div><!-- / .Fresh Works1 -->
+	  
+	  <!-- Responsive Showcase3 -->
+
+	  
+	  <!-- Services Feature5 	  
+	  <div class="service-feature5">
+		<div class="container">
+		  <div class="row">	
+			<div class="col-xs-12 col-sm-12 col-md-4">    
+			  <h4 class="white">微信号</h4>
+			    <div class="service-feature5-img">
+				  <img class="img-responsive2" src="img/wechat.png" />
+				</div>
+			  <p>微信号：USApanda3201507593.</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-4">  
+			  <h4 class="white">微信公众号</h4>
+				<div class="service-feature5-img">			  
+				  <img class="img-responsive" src="img/site-img2.jpg" />
+			    </div>
+			  <p>目前正在加速开发中.</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-4">  
+			  <h4 class="white">名片</h4>
+				<div class="service-feature5-img">		  
+				  <img class="img-responsive2" height="100px" src="img/team/jianli.jpg" />
+			    </div>  
+			  <p>电话：3124860858</p>
+            </div> 
+          -->
+		  </div><!-- / .row -->
+        </div><!-- / .container -->
+	  </div><!-- / .Services Feature5 -->
+
+
+
+    </div> <!-- / .wrapper --> 
+
+    <footer>
+      <div class="container">
+        <div class="row">
+  
+          <!-- Contact Us -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>CONTACT US</h4>
+            <p>
+              630 West Webster Ave<br />
+              Chicago, IL United States.
+              <br />
+              Phone :+1 312-486-0858<br />
+              Fax  : 92 026 365 2570
+              <br />
+              <a href="mailto:402540201@qq.com">402540201@qq.com</a>
+            </p>
+          </div><!-- / .Contact Us -->
+  
+          <!-- Useful Links -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>Links</h4>
+            <p>
+              <a href="#">Buy american telephone card </a><br />
+              <a href="#"> Buy Clothes</a><br />
+              <a href="#">Buy accessories</a><br />
+              <a href="#"></a><br />
+              <a href="#"> </a><br />
+              <a href="#"> </a><br />
+            </p>
+          </div><!-- / .Useful Links -->
+  
+          <!-- Recent Tweets -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>Photo Stream</h4>
+            <div class="gallery clearfix">
+              <ul class="list-unstyled">
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+              </ul>
+            </div>
+          </div><!-- / .Recent Tweets -->
+
+          <!-- Newsletter -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>Newsletter</h4>
+            <p>
+              By subscribing to our mailing list you will get the latest news from us.
+            </p>
+            <form class="form" role="form">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="input-group">
+                    <label class="sr-only" for="subscribe-email">Email address</label>
+                    <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-danger">Subscribe</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </form>
+			<br />
+			<h4>Follow us on</h4>
+			  <ul class="list-inline">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-skype"></i></a></li>
+			  </ul>
+          </div><!-- / .Newsletter -->
+		  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer><!-- / .Footer -->
+
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+	<script src="js/jquery.cubeportfolio.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
